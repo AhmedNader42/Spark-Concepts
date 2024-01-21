@@ -2,7 +2,7 @@ package com.ahmed
 
 import org.apache.spark.sql.SparkSession
 
-object Main {
+object CoalesceVsRepartition {
 
   private val spark = SparkSession.builder().master("local[*]").appName("Repartition and Coalesce").getOrCreate()
 
